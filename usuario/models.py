@@ -15,3 +15,4 @@ class User(AbstractUser):
     fecactualizacion = models.DateTimeField(auto_now=True)
     flag = models.BooleanField(default=True)
     objects = CustomUserManager()
+
